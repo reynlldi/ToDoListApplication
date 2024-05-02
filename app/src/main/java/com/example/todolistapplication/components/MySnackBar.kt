@@ -23,7 +23,6 @@ fun mySnackBar(
 
         when (snackBarResult) {
             SnackbarResult.Dismissed -> {
-                onAction()
             }
             SnackbarResult.ActionPerformed -> {
                 onAction()
